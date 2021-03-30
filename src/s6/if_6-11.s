@@ -1,6 +1,7 @@
     global main
 
 main:
+    mov rax, 0x5
     cmp rax, 0x3
     jz true
     jnz false
